@@ -1,7 +1,7 @@
 # sg-unpack
-Unpacker for STEINS;GATE .mpk content files.
+Unpacker for STEINS;GATE (Steam edition) and STEINS;GATE 0 .mpk content files.
 
-Tested with content files from the Steam edition of STEINS;GATE with the [Steam Improvement Patch](http://sonome.dareno.me/projects/sghd.html) applied. Other configurations might also work, as well as other games by the same publisher using the .mpk format, but these are untested.
+Tested with content files from the Steam edition of STEINS;GATE, and the Japanese PC release of Steins Gate 0. Other configurations might also work, including other games using the .mpk format, but these are untested.
 
 ### Downloading
 Check the [releases](https://github.com/rdavisau/sg-unpack/releases) page for the latest version.
@@ -84,4 +84,10 @@ Processing 16,096 entries...
 ```
 
 ### Issues
+
+###### Compression
+There is evidence around the internet and structures in the file format that suggest the mpk format might also support storing compressed file content. None of the provided inputs appear to contain compressed contents so there is nothing built to handle this.
+
+###### Errors
+
 Error handling is minimal to non-existent :smile: If you have any problems, open an issue and depending on the nature of the error I might take a look. That said, I wrote this on the request of a friend so it's mostly provided here on an 'as-is' basis :shipit:
