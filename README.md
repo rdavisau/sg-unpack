@@ -1,7 +1,14 @@
 # sg-unpack
-Unpacker for STEINS;GATE (Steam edition) and STEINS;GATE 0 .mpk content files.
+Unpacker for STEINS;GATE (Steam edition) and STEINS;GATE 0 .mpk content files. 
 
-Tested with content files from the Steam edition of STEINS;GATE, and the Japanese PC release of Steins Gate 0. Other configurations might also work, including other games using the .mpk format, but these are untested.
+Although originally written for the Steam edition of STEINS;GATE, sg-unpack is known to work with the following:
+* STEINS;GATE (Steam edition)
+* STEINS;GATE (from DMM)
+* STEINS;GATE 0 (Steam edition)
+* STEINS;GATE 0 (from DMM)
+* Chaos;Child (from DMM)
+
+Other configurations might also work - including other games using the .mpk format - but these are untested. 
 
 ### Downloading
 Check the [releases](https://github.com/rdavisau/sg-unpack/releases) page for the latest version.
