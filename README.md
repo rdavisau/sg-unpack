@@ -1,14 +1,18 @@
 # sg-unpack
-Unpacker for STEINS;GATE (Steam edition) and STEINS;GATE 0 .mpk content files. 
+Unpacker for SciADV series .mpk content files. 
 
 Although originally written for the Steam edition of STEINS;GATE, sg-unpack is known to work with the following:
-* STEINS;GATE (Steam edition)
-* STEINS;GATE (from DMM)
-* STEINS;GATE 0 (Steam edition)
-* STEINS;GATE 0 (from DMM)
-* Chaos;Child (from DMM)
+
+| Game  | Source(s) |
+| ------------- | ------------- |
+| STEINS;GATE | Steam, DMM |
+| STEINS;GATE 0 | Steam, DMM |
+| STEINS;GATE: Linear Bounded Phenogram | Steam |
+| Chaos;Child | Steam, DMM |
 
 Other configurations might also work - including other games using the .mpk format - but these are untested. 
+
+sg-unpack does not currently implement the extraction logic required to unpack STEINS;GATE ELITE .cpk files. 
 
 ### Downloading
 Check the [releases](https://github.com/rdavisau/sg-unpack/releases) page for the latest version.
@@ -89,12 +93,3 @@ Processing 16,096 entries...
 
 16,096 files (3.31 GB) extracted to 'C:\SG' in 00:00:12.2559171.
 ```
-
-### Issues
-
-###### Compression
-There is evidence around the internet and structures in the file format that suggest the mpk format might also support storing compressed file content. None of the provided inputs appear to contain compressed contents so there is nothing built to handle this.
-
-###### Errors
-
-Error handling is minimal to non-existent :smile: If you have any problems, open an issue and depending on the nature of the error I might take a look. That said, I wrote this on the request of a friend so it's mostly provided here on an 'as-is' basis :shipit:
